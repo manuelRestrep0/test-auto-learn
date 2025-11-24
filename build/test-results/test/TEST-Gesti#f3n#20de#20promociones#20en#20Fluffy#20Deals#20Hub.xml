@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Gestión de promociones en Fluffy Deals Hub" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-11-24T01:58:00" hostname="DESKTOP-Q1RUT5C" time="25.907">
+  <properties/>
+  <testcase name="Crear una promoción válida" classname="Gestión de promociones en Fluffy Deals Hub" time="25.907"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO  - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+Crear una promoción válida(gestión-de-promociones-en-fluffy-deals-hub;crear-una-promoción-válida)
+--------------------------------------------------------------------------------
+[Test worker] INFO  - 
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+Crear una promoción válida
+----------------------------------------------------------------------
+]]></system-err>
+</testsuite>

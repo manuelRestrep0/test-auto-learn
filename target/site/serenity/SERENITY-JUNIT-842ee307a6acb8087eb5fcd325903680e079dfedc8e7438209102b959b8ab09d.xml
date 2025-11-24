@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="0" name="Remover productos del carrito" skipped="0" tests="3" time="8.44" timestamp="2025-11-22 09:47:56"><testcase name="Remover un producto desde la página de productos"/><testcase name="Remover un producto desde el carrito"/><testcase name="Vaciar completamente el carrito"/></testsuite>
