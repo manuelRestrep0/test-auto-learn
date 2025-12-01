@@ -1,5 +1,6 @@
 package co.edu.udea.certificacion.petStore.tasks;
 
+import co.edu.udea.certificacion.petStore.interactions.EnterThe;
 import co.edu.udea.certificacion.petStore.models.User;
 import co.edu.udea.certificacion.petStore.userinterfaces.LoginPage;
 import co.edu.udea.certificacion.petStore.userinterfaces.PromotionsPage;
@@ -29,9 +30,9 @@ public class DoLogin implements Task {
     @Override
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(
-                Enter.theValue(user.getUsername()).into(LoginPage.EMAIL_FIELD),
+                EnterThe.value(user.getUsername(), LoginPage.EMAIL_FIELD),
                 WaitTime.forMillis(300),
-                Enter.theValue(user.getPassword()).into(LoginPage.PASSWORD_FIELD),
+                EnterThe.value(user.getPassword(), LoginPage.PASSWORD_FIELD),
                 WaitTime.forMillis(300),
                 Click.on(LoginPage.LOGIN_BUTTON),
                 WaitTime.forMillis(300),
